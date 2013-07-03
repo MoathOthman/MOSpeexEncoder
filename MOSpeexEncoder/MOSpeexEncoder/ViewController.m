@@ -27,9 +27,9 @@
 }
 -(IBAction) encodeSpeex{
     
-    NSString* audioFilePath =  [[[NSBundle mainBundle]pathForResource:@"One Republic - Someone to Save you" ofType:@"mp3"] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding] ;
+    NSString* audioFilePath =  [[[NSBundle mainBundle]pathForResource:@"NineMillionBicycles" ofType:@"wav"] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding] ;
     NSString*  soundOutPutFilePath =  [NSTemporaryDirectory()
-                            stringByAppendingPathComponent:[NSString stringWithFormat:@"%i%i.ogg",1, 1]]  ;
+                            stringByAppendingPathComponent:[NSString stringWithFormat:@"%@%i.ogg",@"NineMillionBicycles", 1]]  ;
     
     
     char *inputFile=(char*)[ audioFilePath UTF8String];

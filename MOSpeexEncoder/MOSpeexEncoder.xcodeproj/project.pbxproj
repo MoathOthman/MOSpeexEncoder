@@ -124,7 +124,7 @@
 		ECE3B8F0178459D1006B6E6B /* speexenc.c in Sources */ = {isa = PBXBuildFile; fileRef = ECE3B883178459D1006B6E6B /* speexenc.c */; };
 		ECE3B8F1178459D1006B6E6B /* wav_io.c in Sources */ = {isa = PBXBuildFile; fileRef = ECE3B885178459D1006B6E6B /* wav_io.c */; };
 		ECE3B8F2178459D1006B6E6B /* wave_out.c in Sources */ = {isa = PBXBuildFile; fileRef = ECE3B887178459D1006B6E6B /* wave_out.c */; };
-		ECE3B8F517845CBA006B6E6B /* NineMillionBicycles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECE3B8F317845CBA006B6E6B /* NineMillionBicycles.mp3 */; };
+		ECE3B8F517845CBA006B6E6B /* NineMillionBicycles.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECE3B8F317845CBA006B6E6B /* NineMillionBicycles.wav */; };
 		ECE3B8F617845CBA006B6E6B /* One Republic - Someone to Save you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECE3B8F417845CBA006B6E6B /* One Republic - Someone to Save you.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -316,7 +316,7 @@
 		ECE3B886178459D1006B6E6B /* wav_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_io.h; sourceTree = "<group>"; };
 		ECE3B887178459D1006B6E6B /* wave_out.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wave_out.c; sourceTree = "<group>"; };
 		ECE3B888178459D1006B6E6B /* wave_out.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wave_out.h; sourceTree = "<group>"; };
-		ECE3B8F317845CBA006B6E6B /* NineMillionBicycles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NineMillionBicycles.mp3; sourceTree = "<group>"; };
+		ECE3B8F317845CBA006B6E6B /* NineMillionBicycles.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NineMillionBicycles.wav; sourceTree = "<group>"; };
 		ECE3B8F417845CBA006B6E6B /* One Republic - Someone to Save you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Republic - Someone to Save you.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -378,7 +378,7 @@
 		ECE3B7B917845925006B6E6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECE3B8F317845CBA006B6E6B /* NineMillionBicycles.mp3 */,
+				ECE3B8F317845CBA006B6E6B /* NineMillionBicycles.wav */,
 				ECE3B8F417845CBA006B6E6B /* One Republic - Someone to Save you.mp3 */,
 				ECE3B7BA17845925006B6E6B /* MOSpeexEncoder-Info.plist */,
 				ECE3B7BB17845925006B6E6B /* InfoPlist.strings */,
@@ -740,7 +740,7 @@
 				ECE3B8EA178459D1006B6E6B /* speexdec.Po in Resources */,
 				ECE3B8EB178459D1006B6E6B /* speexenc.Po in Resources */,
 				ECE3B8EC178459D1006B6E6B /* wav_io.Po in Resources */,
-				ECE3B8F517845CBA006B6E6B /* NineMillionBicycles.mp3 in Resources */,
+				ECE3B8F517845CBA006B6E6B /* NineMillionBicycles.wav in Resources */,
 				ECE3B8F617845CBA006B6E6B /* One Republic - Someone to Save you.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -936,6 +936,7 @@
 				ECE3B7D417845925006B6E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
