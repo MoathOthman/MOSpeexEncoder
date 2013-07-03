@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <speexenc.h>
 @interface ViewController ()
 
 @end
@@ -25,5 +25,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(IBAction) encodeSpeex{
+    
+    NSString* audioFilePath =  [[[NSBundle mainBundle]pathForResource:@"One Republic - Someone to Save you" ofType:@"mp3"] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding] ;
+    NSString*  soundOutPutFilePath =  [NSTemporaryDirectory()
+                            stringByAppendingPathComponent:[NSString stringWithFormat:@"%i%i.ogg",1, 1]]  ;
+    
+    
+    char *inputFile=(char*)[ audioFilePath UTF8String];
+    char *ofile=(char*)[soundOutPutFilePath UTF8String];
+    
+    char *arv[2]={inputFile,ofile};
+    mainspeexenc(2, arv);
+    
+}
 @end
